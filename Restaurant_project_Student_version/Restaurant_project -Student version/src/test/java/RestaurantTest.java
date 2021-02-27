@@ -66,7 +66,7 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-//<<<<<<<<<<<<<<<<<<<<<<<Order Total>>>>>>>>>>>>>>>>>>>>>//
+//<<<<<<<<<<<<<<<<<<<<<<<Order Total: Passing test case>>>>>>>>>>>>>>>>>>>>>//
     @Test
     public void order_total_should_be_sum_of_the_amount_of_items_passed(){
         List<String> items = new ArrayList<String>();
